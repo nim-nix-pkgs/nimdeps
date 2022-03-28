@@ -11,7 +11,6 @@
   inputs.src-nimdeps-master.ref   = "refs/heads/master";
   inputs.src-nimdeps-master.owner = "genotrance";
   inputs.src-nimdeps-master.repo  = "nimdeps";
-  inputs.src-nimdeps-master.dir   = "";
   inputs.src-nimdeps-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
